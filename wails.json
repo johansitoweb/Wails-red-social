@@ -1,0 +1,15 @@
+{
+  "name": "MiRedSocial",
+  "author": "TuNombre",
+  "outputdir": "build",
+  "frontend": {
+    "dir": "frontend",
+    "install": "npm install",
+    "build": "npm run build",
+    "dev": "npm run dev"
+  },
+  "backend": {
+    "dir": "backend",
+    "build": "go build -o backend"
+  }
+}
